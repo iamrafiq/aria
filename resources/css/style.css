@@ -245,7 +245,7 @@ header {
   border-radius: 1%;
 }
 .large-hexagon {
-  font-size: 400%;
+  font-size: 250%;
   color: #fff;
   display: block;
   background-image: url(./img/hexagon-green.svg);
@@ -262,4 +262,77 @@ header {
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
+}
+
+/*---------------------------------------*/
+/*Services*/
+/*---------------------------------------*/
+.section-services  {
+margin-bottom: 50px;
+}
+.section-services img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 1%;
+  border-top-right-radius: 1%;
+}
+
+
+.section-services .row-1,
+.section-services .row-2{
+  display: block;
+  text-align: center;
+}
+.section-services .row-1{
+  margin-top: 130px;
+}
+.section-services .row-2{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.services-box {
+  background-color: #f4f4f4;
+  width: 100%;
+  box-shadow: 0 2px 2px efefef;
+  position: relative;
+  padding-bottom: 10px;
+}
+.services-box h2{
+  display: block;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.section-services p{
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+}
+.service-feature {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 15px;
+}
+.service-feature .fas{
+  color: #14bf98;
+  padding-right: 5px;
+ 
+}
+.services-box .price{
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  font-size: 120%;
+}
+.services-box .price span{
+  color: #14bf98;
+}
+
+.services-box .btn{
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
