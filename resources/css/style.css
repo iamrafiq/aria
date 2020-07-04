@@ -239,14 +239,7 @@ header {
 .section-intro .row-2 .col{
   padding-right: 10px;
 }
-.section-intro img{
-  width: 100%;
-  height: auto;
-  border-radius: 1%;
 
-  transform: scale(1.03);
-  transition: transform 0.2s;
-}
 .intro-image-box{
   width: 120%;
   height: auto;
@@ -254,16 +247,17 @@ header {
   overflow: hidden;
 
 }
-.section-intro img:hover {
+.intro-image-box img:hover {
   transform: scale(1.15);
 }
-.meal-photo img {
+.intro-image-box img{
   width: 100%;
   height: auto;
-  transform: scale(1.15);
-  transition: transform 0.5s, opacity 0.5s;
-  opacity: 0.7;
+  border-radius: 1%;
+  transform: scale(1.0);
+  transition: transform 0.2s;
 }
+
 .large-hexagon {
   font-size: 250%;
   color: #fff;
@@ -355,4 +349,54 @@ margin-bottom: 50px;
   top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/*---------------------------------------*/
+/*Tabs*/
+/*---------------------------------------*/
+
+
+
+.tabs {
+  
+ 
+}
+.tabs .nav-tabs{
+text-align: center;
+}
+.nav-tabs li {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 150%;
+  cursor: pointer;
+  margin: 0px 10px 0px 10px;
+}
+.nav-tabs li a:link,
+.nav-tabs li a:visited{
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  color: #a1a1a1;
+}
+.nav-tabs li a:hover,
+.nav-tabs li a:active{
+  color: #14bf98;
+}
+
+.nav-tabs li i{
+  margin-right: 10px;
+}
+.tab-open{
+  display: block;
+}
+.tab-close{
+  display: none;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.fadeIn{
+  /*https://animate.style/ */
+  opacity: 1;
+  animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
 }
