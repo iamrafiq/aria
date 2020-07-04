@@ -240,9 +240,29 @@ header {
   padding-right: 10px;
 }
 .section-intro img{
+  width: 100%;
+  height: auto;
+  border-radius: 1%;
+
+  transform: scale(1.03);
+  transition: transform 0.2s;
+}
+.intro-image-box{
   width: 120%;
   height: auto;
   border-radius: 1%;
+  overflow: hidden;
+
+}
+.section-intro img:hover {
+  transform: scale(1.15);
+}
+.meal-photo img {
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+  opacity: 0.7;
 }
 .large-hexagon {
   font-size: 250%;
