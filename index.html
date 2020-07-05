@@ -228,23 +228,75 @@
                 <div class="col span_1_of_2">
                     <div class="tabs">
                         <ul class="nav-tabs">
-                            <li><a   onclick="openTab('business')"><i class="fas fa-th"></i>Business</a></li>
-                            <li><a  onclick="openTab('expertise')"><i class="fas fa-th"></i>Expertise</a></li>
-                            <li><a  onclick="openTab('quality')"><i class="fas fa-th"></i>Quality</a></li>
+                            <li><a  id="btn-tab-business" class="btn-tab nav-tab-selected"  onclick="openTab('business','btn-tab-business')"><i class="fas fa-th"></i>Business</a></li>
+                            <li><a  id="btn-tab-expertise" class="btn-tab" onclick="openTab('expertise', 'btn-tab-expertise')"><i class="fas fa-th"></i>Expertise</a></li>
+                            <li><a  id="btn-tab-quality" class="btn-tab" onclick="openTab('quality', 'btn-tab-quality')"><i class="fas fa-th"></i>Quality</a></li>
                         </ul>
-                        <div id="business" class="tab tab-close">
-                            <h2>London</h2>
-                            <p>London is the capital of England.</p>
+                        <div id="business" class="tab tab-open">
+                            <h2>Business Services For Companies</h2>
+                            <p>Aria provides the most innovative and customized business services in the industry. Our <a class="anchor-theme-inside" href="#">Services</a> section shows how flexible we are for all types of budgets.</p>
+                            <p>Business Development 100&percnt;</p>
+                            <div class="percent-bar-100"></div>
+                            <p>Opportunity Spotting 76&percnt;</p>
+                            <div class="percent-bar-76"></div>
+                            <p>Online Marketing 90&percnt;</p>
+                            <div class="percent-bar-90"></div>
                           </div>
                           
-                          <div id="expertise" class="tab tab-open" >
-                            <h2>Paris</h2>
-                            <p>Paris is the capital of France.</p>
+                          <div id="expertise" class="tab tab-close" >
+                            <ul class="list-experties">
+                                <li>
+                                    <div class="media-bullet">1</div>
+                                    <div class="media-body"><strong class="strong-inside">High quality</strong> is on top of our list when it comes to the way we deliver the services</div>
+                                </li>
+                                <li>
+                                    <div class="media-bullet">1</div>
+                                    <div class="media-body"><strong class="strong-inside">High quality</strong> is on top of our list when it comes to the way we deliver the services</div>
+                                </li>
+                                <li>
+                                    <div class="media-bullet">1</div>
+                                    <div class="media-body"><strong class="strong-inside">High quality</strong> is on top of our list when it comes to the way we deliver the services</div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="media-bullet">1</div>
+                                    <div class="media-body"><strong class="strong-inside">High quality</strong> is on top of our list when it comes to the way we deliver the services</div>
+                                </li>
+                                <li>
+                                    <div class="media-bullet">1</div>
+                                    <div class="media-body"><strong class="strong-inside">High quality</strong> is on top of our list when it comes to the way we deliver the services</div>
+                                </li>
+                                <li>
+                                    <div class="media-bullet">1</div>
+                                    <div class="media-body"><strong class="strong-inside">High quality</strong> is on top of our list when it comes to the way we deliver the services</div>
+                                </li>
+                            </ul>
                           </div>
                           
                           <div id="quality" class="tab tab-close">
-                            <h2>Tokyo</h2>
-                            <p>Tokyo is the capital of Japan.</p>
+                            <p> <strong class="strong-inside">We strive to achieve</strong>  100% customer satisfaction for both types of customers: hiring companies and job seekers. Types of customers: <a class="anchor-theme-inside" href="#">with huge potential</a> </p>
+                            <p><strong class="strong-inside">Our goal is to help</strong>  your company achieve its full potential and establish long term stability for  <a class="anchor-theme-inside" href="#"> the stakeholders</a></p>
+                            <div class="media-point">
+                                <i class="fas fa-square icon-small"></i>
+                                It's easy to get a quotation, just call our office anytime
+                            </div>
+                            <div class="media-point">
+                                <i class="fas fa-square icon-small"></i>
+                                We'll get back to you with an initial estimate soon
+                            </div>
+                            <div class="media-point">
+                                <i class="fas fa-square icon-small"></i>
+                                Get ready to see results even after only 30 days
+                            </div>
+                            <div class="media-point">
+                                <i class="fas fa-square icon-small"></i>
+                                Ask for a quote and start improving your business
+                            </div>
+                            <div class="media-point">
+                                <i class="fas fa-square icon-small"></i>
+                                Just fill out the form and we'll call you right away
+                            </div>
                           </div>
                     </div>
 

@@ -382,7 +382,12 @@ text-align: center;
 .nav-tabs li a:active{
   color: #14bf98;
 }
-
+.nav-tab-selected{
+  color: #14bf98;
+}
+.nav-tab-unselected{
+  color: #a1a1a1;
+}
 .nav-tabs li i{
   margin-right: 10px;
 }
