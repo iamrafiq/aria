@@ -319,7 +319,7 @@ margin-bottom: 50px;
   padding-top: 40px;
   padding-bottom: 10px;
 }
-.section-services p{
+.section-services .top p{
   padding-left: 35px;
   padding-right: 35px;
   padding-bottom: 20px;
@@ -355,21 +355,34 @@ margin-bottom: 50px;
 /*Tabs*/
 /*---------------------------------------*/
 
-
-
 .tabs {
-  
- 
+  margin: 0px 90px;
 }
-.tabs .nav-tabs{
-text-align: center;
+.nav-tabs{
+  position: relative;
+  padding-bottom: 50px;
 }
+
 .nav-tabs li {
-  display: inline-block;
+  display: inline-block;  
+  position: absolute;
+  list-style: none;
   font-weight: 600;
   font-size: 150%;
   cursor: pointer;
-  margin: 0px 10px 0px 10px;
+}
+.nav-tabs li:first-child{
+  top: 0px;
+  left: 0px;
+}
+.nav-tabs li:last-child{
+  top: 0px;
+  right: 0px;
+}
+.nav-tabs li:nth-child(2){
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
 .nav-tabs li a:link,
 .nav-tabs li a:visited{
@@ -404,4 +417,74 @@ text-align: center;
   opacity: 1;
   animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+.tabs .details h2{
+  /* margin:20px 0; */
+  font-size: 200%;
+  font-weight: 600;
+}
+.tabs .details p{
+  margin:20px 0;
+  font-size: 125%;
+  font-weight: 400;
+}
+
+.tabs .percent-bar .bar{
+  height: 20px;
+  background-color: #14bf98;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
+.tabs .percent-bar p{
+  font-size: 110%;
+  color: #444444;
+}
+.tabs .percent-bar .bar-100{
+  width: 100%;
+}
+.tabs .percent-bar .bar-90{
+  width: 90%;
+}
+.tabs .percent-bar .bar-76{
+  width: 76%;
+}
+
+.tabs .anchor-theme-inside{
+  color: #14bf98;
+}
+
+.tabs .list-experties li{
+  font-size: 125%;
+  width: 50%;
+  float: left;
+  line-height: 150%;
+  list-style: none;
+  padding-bottom: 40px;
+}
+.tabs .list-experties .media-bullet{
+  font-size: 170%;
+  color: #14bf98;
+  float: left;
+  margin-right: 10px;
+  font-weight: 700;
+}
+.tabs .quality-details p{
+  margin-bottom: 20px;
+  font-size: 125%;
+
+}
+
+.tabs .media-point{
+  margin-bottom: 10px;
+}
+
+.tabs .media-point i{
+  color: #14bf98;
+  float: left;
+  margin-right: 5px;
+}
+.tabs .media-point p{
+  font-size: 125%;
 }
