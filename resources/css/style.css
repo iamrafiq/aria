@@ -488,3 +488,106 @@ margin-bottom: 50px;
 .tabs .media-point p{
   font-size: 125%;
 }
+
+.middle h2{
+  margin-bottom: 25px;
+}
+
+.steps{
+  margin-left: 50px;
+  margin-right: 120px;
+}
+.growth-step{
+  margin-bottom: 30px;
+ 
+
+}
+.step-title{
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.span-outer{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  display: inline-block;
+  background-color: #14bf98;
+  border-radius: 50%;
+  border: 1px solid #14bf98;
+
+}
+.span-number,
+.span-title{
+  cursor: pointer;
+  cursor: pointer;
+}
+
+.span-number-step-opened{
+  color: #f4f4f4;
+  border: 1px solid #14bf98;
+}
+.span-number-step-closed{
+  color: #060d0e;
+  border: 1px solid #060d0e;
+  background-color: #fff;
+}
+.span-title-step-opened{
+ color: #14bf98;
+}
+.span-title-step-closed{
+ color: #060d0e;
+}
+ .span-number{
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 160%;
+  font-weight: 700;
+  
+} 
+
+.span-title{
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  font-size: 160%;
+  font-weight: 700;
+
+}
+.step-details p{
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+/*.span-number{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 2.25rem;
+  height: 2.25rem;
+  margin-right: 0.875rem;
+  border: 0.125rem solid #14bf98;
+  border-radius: 50%;
+  background-color: #14bf98;
+  color: #fff;
+  font: 700 1rem/2.125rem "Montserrat", sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.span-title{
+  display: inline-block;
+  margin-top: 0.125rem;
+  margin-bottom: 0.25rem;
+  font: 700 1.25rem/1.75rem "Montserrat", sans-serif;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}*/
+
+
+

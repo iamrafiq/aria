@@ -6,10 +6,6 @@ $(document).ready(function(){
     $(".js--growth-step .step-details").click(function(event) {
         event.stopPropagation();
    });
-   $(".js--growth-step").click(function(event){
-    $(this).children(".step-details").slideToggle(500);
-      return false;
- });
 });
 
 function openTab(tabName, btnName) {
