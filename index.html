@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Aria is a business solution web aplication">
     <link rel="stylesheet" type="text/css" href="./vendors/css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./vendors/css/responsivegridsystem/css/html5reset.css" media="all">
     <link rel="stylesheet" href="./vendors/css/responsivegridsystem/css/col.css" media="all">
     <link rel="stylesheet" href="./vendors/css/responsivegridsystem/css/2cols.css" media="all">
@@ -203,12 +204,14 @@
                                 <div class="growth-step js--growth-step">
                                     <div class="step-title">
                                         <span class="span-outer js--span-number-step-close-outer">
-                                            <span class="span-number js--span-number">1</span>
+                                            <span id="number" class="span-number js--span-number">1</span>
                                         </span>
-                                        <span class="span-title js--span-title">How Can Aria Help Your Business</span>
+                                        <span id="title" class="span-title js--span-title">How Can Aria Help Your
+                                            Business</span>
                                     </div>
-                                    <div class="step-details">
-                                        <p>At Aria solutions, we’ve taken the consultancy concept one step further by offering a full service management organization with expertise.</p>
+                                    <div class="step-details hide-without-space js--step-details">
+                                        <p>At Aria solutions, we’ve taken the consultancy concept one step further by
+                                            offering a full service management organization with expertise.</p>
                                     </div>
                                 </div>
                                 <div class="growth-step js--growth-step">
@@ -216,21 +219,26 @@
                                         <span class="span-outer js--span-number-step-close-outer">
                                             <span class="span-number span-number-step-opened js--span-number">2</span>
                                         </span>
-                                        <span class="span-title span-title-step-opened js--span-title">Great Strategic Business Planning</span>
+                                        <span class="span-title span-title-step-opened js--span-title">Great Strategic
+                                            Business Planning</span>
                                     </div>
-                                    <div class="step-details">
-                                        <p>Aria partners with businesses to business growth and development ideas including environment analysis, plan execution and evaluation. </p>
+                                    <div class="step-details hide-without-space js--step-details">
+                                        <p>Aria partners with businesses to business growth and development ideas
+                                            including environment analysis, plan execution and evaluation. </p>
                                     </div>
                                 </div>
                                 <div class="growth-step js--growth-step">
                                     <div class="step-title">
-                                        <span class="span-outer span-number-step-closed js--span-number-step-close-outer">
+                                        <span
+                                            class="span-outer span-number-step-closed js--span-number-step-close-outer">
                                             <span class="span-number js--span-number">3</span>
                                         </span>
-                                        <span class="span-title span-title-step-closed js--span-title">Online Marketing Campaigns</span>
+                                        <span class="span-title span-title-step-closed js--span-title">Online Marketing
+                                            Campaigns</span>
                                     </div>
-                                    <div class="step-details">
-                                        <p>An awesome online marketing plan won't save your bad product but paired with a good product, the sky is the limit for what can be achieved. </p>
+                                    <div class="step-details hide-without-space js--step-details">
+                                        <p>An awesome online marketing plan won't save your bad product but paired with
+                                            a good product, the sky is the limit for what can be achieved. </p>
                                     </div>
                                 </div>
                             </div>
@@ -352,12 +360,41 @@
                 </div>
             </div>
         </div>
+        <div class="end">
+            <div class="row">
+                <h2 class>Read Our Customer Testimonials</h2>
+                <p>Our clients are our partners and we can not imagine a better future for our <br>company without
+                    helping them reach their objectives</p>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper"></div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <!-- <p class="append-buttons">
+                    <a href="#" class="prepend-2-slides">Prepend 2 Slides</a>
+                    <a href="#" class="slide-1">Slide 1</a>
+                    <a href="#" class="slide-250">Slide 250</a>
+                    <a href="#" class="slide-500">Slide 500</a>
+                    <a href="#" class="append-slide">Append Slide</a>
+                </p> -->
+            </div>
+            <!-- <div class="slider-item">
+                <img src="./resources/img/testimonial-1.jpg">
+                <p>At Aria solutions, we’ve taken the consultancy concept one step further by offering a full service management organization with expertise. </p>
+                <h3>Nora Zaman - Owner</h3>
+            </div> -->
+        </div>
 
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!--Our own script always be the last one-->
     <script src='./resources/js/script.js'></script>
+    <script src="./resources/js/swiper.js"></script>
 
 </body>
 

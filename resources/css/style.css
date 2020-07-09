@@ -12,7 +12,6 @@ html {
   font-size: 12px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
-  overflow-x: hidden;
 }
 .clearfix {
     /*clear fix discuessed in leacture: 16. Building the how-it-works section - Part 2*/
@@ -489,6 +488,9 @@ margin-bottom: 50px;
   font-size: 125%;
 }
 
+.middle{
+  margin-top: 100px;
+}
 .middle h2{
   margin-bottom: 25px;
 }
@@ -506,6 +508,7 @@ margin-bottom: 50px;
   position: relative;
   width: auto;
   height: auto;
+  cursor: pointer;
 }
 .span-outer{
   position: relative;
@@ -518,11 +521,11 @@ margin-bottom: 50px;
   border: 1px solid #14bf98;
 
 }
-.span-number,
+/* .span-number,
 .span-title{
   cursor: pointer;
   cursor: pointer;
-}
+} */
 
 .span-number-step-opened{
   color: #f4f4f4;
@@ -556,6 +559,7 @@ margin-bottom: 50px;
   transform: translate(0%, -50%);
   font-size: 160%;
   font-weight: 700;
+  float: left;
 
 }
 .step-details p{
@@ -563,31 +567,94 @@ margin-bottom: 50px;
   margin-left: 40px;
 }
 
-/*.span-number{
-  box-sizing: border-box;
-  display: inline-block;
-  width: 2.25rem;
-  height: 2.25rem;
-  margin-right: 0.875rem;
-  border: 0.125rem solid #14bf98;
-  border-radius: 50%;
-  background-color: #14bf98;
-  color: #fff;
-  font: 700 1rem/2.125rem "Montserrat", sans-serif;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
-  transition: all 0.2s ease;
+.hide-without-space{
+  display: none;
+
 }
-.span-title{
+.show{
+  display: block;
+}
+
+/******************************/
+/*SERVICE END PART*/
+/******************************/
+.end{
+  margin-top: 50px;
+}
+.end .row {
+  text-align: center;
+}
+.end .row p {
+  margin-top: 10px;
+}
+
+/*Swiper*/
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.append-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.append-buttons a {
   display: inline-block;
-  margin-top: 0.125rem;
-  margin-bottom: 0.25rem;
-  font: 700 1.25rem/1.75rem "Montserrat", sans-serif;
-  vertical-align: middle;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}*/
+  border: 1px solid #007aff;
+  color: #007aff;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 13px;
+}
 
-
+.slider-item{
+  width: 100%;
+  height: 100%;
+  text-align:center;
+  margin-top: 50px;
+}
+.slider-item img{
+  width: 40%;
+  height: auto;
+  border-radius: 50%;
+}
+.slider-item p{
+  font-size: 80%;
+}
+.slider-item h3{
+  margin-top: 10px;
+}
 
